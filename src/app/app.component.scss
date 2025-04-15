@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Solid black background */
+    padding: 15px 0;
+    border-bottom: 2px solid #00ffcc; /* Vibrant turquoise border for modern design */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  button {
+    margin: 0 20px; /* Space out buttons evenly */
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff; /* White text for buttons */
+    background-color: transparent; /* No background for a clean look */
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    color: #00ffcc; /* Vibrant turquoise on hover */
+    transform: scale(1.1); /* Slight scaling effect on hover */
+  }
+  
+  router-outlet {
+    margin-top: 20px; /* Space between nav and page content */
+  }
+  

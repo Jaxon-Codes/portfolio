@@ -1,25 +1,50 @@
 .hero {
-  text-align: center;
-  background: linear-gradient(135deg, #0e0000, #2e7d32);
-  color: white;
-  padding: 50px;
-  border-radius: 10px;
-}
-
-.cta-button {
-    margin-top: 20px;
-    background-color: #FFC107;
-    border: none;
-    padding: 15px 25px;
-    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #000; /* Solid black background */
+    color: #fff; /* White text for headings and content */
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff; /* White heading */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 10px #00ffcc; /* Vibrant accent glow */
+  }
+  
+  .hero-tagline {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #ccc; /* Slightly muted white for subtle contrast */
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
     font-size: 1.2rem;
     font-weight: bold;
+    color: #000; /* Black text */
+    background-color: #00ffcc; /* Vibrant turquoise button */
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 255, 204, 0.5); /* Glow effect for button */
+    transition: background-color 0.3s ease, transform 0.2s ease;
   }
   
   .cta-button:hover {
-    background-color: #FFA000;
+    background-color: #00cc99; /* Darker turquoise on hover */
+    transform: scale(1.05);
   }
   
